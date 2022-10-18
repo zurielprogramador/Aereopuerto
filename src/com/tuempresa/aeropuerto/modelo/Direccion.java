@@ -19,5 +19,11 @@ public class Direccion {
 	
 	@Column(length = 15)
 	String pais;
-
+	
+	@Column(length=32)
+	String nombre;
+	
+	
+	@Column(length=6)
+	int id;
 }
